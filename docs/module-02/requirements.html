@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 02 — Case Study Requirements</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/main.css?v1.5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#scenario">Scenario</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#module-02-requirements">Module 02 Requirements</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>WDD X99 - Technology Product Development I-IV</h1>
+            <h2>Module 02 — Case Study Requirements</h2>
+            <nav><a href="https://byui-cse.github.io/wdd-x99-course"><i class="fas fa-home"></i></a><a href="https://byui-cse.github.io/wdd-x99-course/module-01/">Module 1</a><a href="https://byui-cse.github.io/wdd-x99-course/module-02/">Module 2</a><a href="https://byui-cse.github.io/wdd-x99-course/module-03/">Module 3</a><a href="https://byui-cse.github.io/wdd-x99-course/module-04/">Module 4</a><a href="https://byui-cse.github.io/wdd-x99-course/module-05/">Module 5</a><a href="https://byui-cse.github.io/wdd-x99-course/module-06/">Module 6</a></nav>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<p><img alt="AnyCompany Cafe" src="https://byui-cse.github.io/wdd-x99-course/shared/img/dessert.jpg" />
+<em><a href="https://unsplash.com/@miksbaum">Photo by Michaela Baum on Unsplash</a></em></p>
+<h2 id="scenario">Scenario</h2>
+<p>AnyCompany Café sells dessert and drink items through their website. They have cafés in multiple cities throughout the world. The company wants to gain insights into the business by using data about how people interact with the website. The company plans to analyze clickstream data trends to make smarter decisions about where to invest. AnyCompany Café has hired your consulting company to lead this effort. You are a data integration specialist and work with a team of data engineers, data analysts, and web developers.</p>
+<p>The clickstream log data from the café website includes an entry for every click that a potential customer makes while browsing the website. Your task is to design and create a data analytics pipeline to capture the clickstream data. You will also create an analytics dashboard so that the café owner can quickly observe customer behavior. The team wants to gain insights on user behavior on the website and then use those insights to focus advertising efforts. The company might even use the data to decide where to open additional locations.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/amy.jpg">
+    <h5>Amy Sorensen, Owner of AnyCompany Cafe</h5>
+    <blockquote><p>Good morning, everyone. Thank you for joining this meeting. As you know, we've been exploring ways to leverage data to better understand our business and make informed decisions. Today, we have our consulting team here to discuss the progress on building our data analytics pipeline.</p><p>So, let's dive in. How's the progress on designing and creating the data analytics pipeline?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>We've made significant strides in designing and cost-optimizing the solution. Before we proceed to build, we want to ensure that it aligns with your needs and is cost-effective.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/tyler.jpg">
+    <h5>Tyler Pruitt, VP of Marketing</h5>
+    <blockquote><p>That sounds great. Can you elaborate on how you plan to capture and analyze the clickstream data?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>Certainly. We'll be ingesting access_log data from the café web server. To ensure functionality and provide insights, we'll transform the data and use simulated log data for testing purposes.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/amy.jpg">
+    <h5>Amy Sorensen, Owner of AnyCompany Cafe</h5>
+    <blockquote><p>That's good to hear. I'm keen on gaining insights from this data. Can you give us an idea of what insights we can expect?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Brooke Timber, Cloud Support Engineer</h5>
+    <blockquote><p>Absolutely. By analyzing the clickstream data, we'll be able to understand user behavior on our website. This information will help us focus our advertising efforts effectively and even make decisions on where to open additional café locations.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/amy.jpg">
+    <h5>Amy Sorensen, Owner of AnyCompany Cafe</h5>
+    <blockquote><p>Impressive. Now, I know there are some additional requirements you've been working on. Could you share those with the group?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>Of course.</p><p>We've been asked to incorporate geolocation information for website visitors and develop a visual dashboard to gain insights. The dashboard will include various metrics such as the top cities and regions with the most website visitors, those who accessed the menu page, and those who made a purchase. Additionally, we'll provide the ability to store access logs in Amazon S3 and query them using SQL.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/tyler.jpg">
+    <h5>Tyler Pruitt, VP of Marketing</h5>
+    <blockquote><p>That sounds incredibly useful for our marketing efforts. Being able to pinpoint where our website visitors are coming from will greatly enhance our targeting strategies.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/amy.jpg">
+    <h5>Amy Sorensen, Owner of AnyCompany Cafe</h5>
+    <blockquote><p>Agreed. Overall, I'm impressed with the progress and the direction we're headed. Thank you all for your hard work.</p>
+</blockquote>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The shareholders are particularly interested in the following areas:</p>
+<ol>
+<li>Provide a cost estimate and architecture diagram.</li>
+<li>Examine logs and get them in a format that is usable.</li>
+<li>Start collecting clickstream data.</li>
+<li>Use the data to build a dashboard to inform business decisions.</li>
+</ol>
+</div>
+<h2 id="module-02-requirements">Module 02 Requirements</h2>
+<p>The project must meet the following requirements:</p>
+<ol>
+<li>Design and cost-optimize the solution prior to building</li>
+<li>Ensure that the solution is functional</li>
+<li>Transform data</li>
+<li>Ingest access_log data from the café web server</li>
+<li>Use simulated log data</li>
+<li>Analyze and visualize data</li>
+<li>Generate insights</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/VnM6_liIRJ0">Dessert photo by Michaela Baum on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/b3AYk8HKCl0">Owner photo by Amy Hirschi on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/swi1DGRCshQ">Cloud Team photo by Tyler NixChristina @ wocintechchat.com on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unsplash.com/photos/ZGa9d1a_4tA">VP of Marketing photo by Tyler Nix on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

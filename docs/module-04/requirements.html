@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 04 — Case Study Requirements</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/wdd-x99-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/wdd-x99-course/shared/main.css?v1.5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#scenario">Scenario</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#module-04-requirements">Module 04 Requirements</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>WDD X99 - Technology Product Development I-IV</h1>
+            <h2>Module 04 — Case Study Requirements</h2>
+            <nav><a href="https://byui-cse.github.io/wdd-x99-course"><i class="fas fa-home"></i></a><a href="https://byui-cse.github.io/wdd-x99-course/module-01/">Module 1</a><a href="https://byui-cse.github.io/wdd-x99-course/module-02/">Module 2</a><a href="https://byui-cse.github.io/wdd-x99-course/module-03/">Module 3</a><a href="https://byui-cse.github.io/wdd-x99-course/module-04/">Module 4</a><a href="https://byui-cse.github.io/wdd-x99-course/module-05/">Module 5</a><a href="https://byui-cse.github.io/wdd-x99-course/module-06/">Module 6</a></nav>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<p><img alt="Hot Cocoa" src="https://byui-cse.github.io/wdd-x99-course/shared/img/hot-cocoa.jpg" />
+<em><a href="https://unsplash.com/@liamo27">Photo by Liam McGlynn on Unsplash</a></em></p>
+<h2 id="scenario">Scenario</h2>
+<p>The owners of a café corporation with many franchise locations have noticed how popular their gourmet hot cocoa offerings have become. </p>
+<p>Customers (the café franchise location managers) cannot seem to get enough of the high-quality cacao beans that are needed to create amazing hot cocoa in their cafés. </p>
+<p>Meanwhile, the employees in the café corporate office have been challenged to consistently source the highest-quality cacao beans. Recently, the leaders at the corporate office learned that one of their favorite cacao suppliers wants to sell her company. The café corporate managers jumped at the opportunity to buy the company. The acquired cacao supplier runs a cacao supplier listings application on an AWS account, as shown in the following image.</p>
+<p><img alt="Scenario" src="https://byui-cse.github.io/wdd-x99-course/shared/img/scenario-one.jpg" /></p>
+<p>The cacao suppliers application currently runs as a monolithic application. It has reliability and performance issues. That is one of the reasons that you have recently been hired to work in the café corporate office. In this project, you perform tasks that are associated with software development engineer (SDE), app developer, and cloud support engineer roles.</p>
+<p>You have been tasked to split the monolithic application into microservices, so that you can scale the services independently and allocate more compute resources to the services that experience the highest demand, with the goal of avoiding bottlenecks. A microservices design will also help avoid single points of failure, which could bring down the entire application in a monolithic design. With services isolated from one another, if one microservice becomes temporarily unavailable, the other microservices might remain available.</p>
+<p>You have also been challenged to develop a CI/CD pipeline to automatically deploy updates to the production cluster that runs containers, using a blue/green deployment strategy. </p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/christian.jpg">
+    <h5>Christian Jones, Software Development Team Lead</h5>
+    <blockquote><p>Good morning, everyone. Thank you for joining this meeting. As you know, we've been tasked with splitting the monolithic cacao supplier application into microservices and implementing a CI/CD pipeline for automated deployment. Let's discuss our plan and how we'll collaborate with the cloud support team to achieve this.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>Morning, team. I've reviewed the requirements, and I think we can align our efforts effectively. First, we need to ensure the microservices architecture is well-suited for deployment on AWS. Have we drafted an architecture diagram?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/bruce.jpg">
+    <h5>Bruce VanNoy, Senior Cloud Engineer</h5>
+    <blockquote><p>Not yet, we've tasked our newest cloud support team member with creating an initial diagram outlining the microservices architecture.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/christian.jpg">
+    <h5>Christian Jones, Software Development Team Lead</h5>
+    <blockquote><p>This diagram should illustrate how we'll split the monolith into individual services: one for user authentication, another for managing cocoa listings, and a third for order processing. Each service will have its own database and API endpoints.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Brooke Timber, Cloud Support Engineer</h5>
+    <blockquote><p>Looks good. We'll need to consider factors like load balancing and fault tolerance for each microservice. How are we planning to handle scalability and resilience?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/bruce.jpg">
+    <h5>Bruce VanNoy, Senior Cloud Engineer</h5>
+    <blockquote><p>We'll use AWS Elastic Load Balancing to distribute incoming traffic across multiple instances of each microservice. Additionally, we'll implement auto-scaling groups to automatically adjust the number of instances based on demand.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>Excellent. And what about portability? We need to ensure the application remains agnostic to the underlying infrastructure.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/bruce.jpg">
+    <h5>Bruce VanNoy, Senior Cloud Engineer</h5>
+    <blockquote><p>We'll containerize each microservice using Docker, making them independent of the host environment. We will then orchestrate container deployment and management, providing portability across different cloud providers if needed.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/christian.jpg">
+    <h5>Christian Jones, Software Development Team Lead</h5>
+    <blockquote><p>Now, regarding the CI/CD pipeline, we'll use AWS CodePipeline for automation. Whenever changes are pushed to our Git repository, CodePipeline will trigger the pipeline, which includes building Docker images, running tests, and deploying to our Kubernetes cluster using a blue/green deployment strategy.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Taylor Zitlau, Cloud Support Engineer</h5>
+    <blockquote><p>Sounds like a robust plan. Have we estimated the cost implications of this solution?</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Brooke Timber, Cloud Support Engineer</h5>
+    <blockquote><p>Yes, I've calculated the cost based on the anticipated usage and resource requirements. With proper utilization of AWS services like ECS for container orchestration and spot instances for non-critical workloads, we can optimize costs while ensuring scalability and reliability.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/christian.jpg">
+    <h5>Christian Jones, Software Development Team Lead</h5>
+    <blockquote><p>Great work, team. Let's ensure close collaboration throughout the implementation process to address any challenges that arise and to maintain alignment with the solution requirements.</p>
+</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/wdd-x99-course/shared/img/cloud-team.jpg">
+    <h5>Brooke Timber, Cloud Support Engineer</h5>
+    <blockquote><p>Agreed. We'll provide ongoing support for infrastructure provisioning, monitoring, and optimization to ensure the solution operates efficiently in production.</p>
+</blockquote>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The shareholders are particularly interested in the following areas:</p>
+<ol>
+<li>Provide a cost estimate and architecture diagram.</li>
+<li>Break monolithic services into containerized microservices.</li>
+<li>Create the code CI/CD pipelines.</li>
+<li>Deploy iterative improvements using a blue/green deployment strategy.</li>
+</ol>
+</div>
+<h2 id="module-04-requirements">Module 04 Requirements</h2>
+<p>The project must meet the following requirements:</p>
+<ol>
+<li>R1 – <strong>Design</strong> – The solution must have an architecture diagram</li>
+<li>R2 – <strong>Cost Optimized</strong> – The solution must include a cost estimate</li>
+<li>R3 – <strong>Microservices-based architecture</strong>: Ensure that the solution is functional and deploys a microservice-based architecture</li>
+<li>R4 – <strong>Portability</strong>: The solution must be portable so that the application code isn’t tied to running on a specific host machine.</li>
+<li>R5 – <strong>Scalability/resilience</strong>: The solution must provide the ability to increase the amount of compute resources that are dedicated to serving requests as usage patterns change, and the solution must use routing logic that is reliable and scalable.</li>
+<li>R6 – <strong>Automated CI/CD</strong>: The solution must provide a CI/CD pipeline that can be automatically invoked when code is updated and pushed to a version-controlled repository.</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/uW4F8DorLs8">Hot Cocoa photo by Liam McGlynn on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/DItYlc26zVI">Software Development Team Lead photo by Christian Buehner on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/swi1DGRCshQ">Cloud Team photo by Tyler NixChristina @ wocintechchat.com on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unsplash.com/photos/8YG31Xn4dSw">Senior Cloud Engineer photo by bruce mars on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/wdd-x99-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
