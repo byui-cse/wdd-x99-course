@@ -17,15 +17,21 @@ Selecting a product that will resonate with customers is critical. We'll come up
 
 For your convenience, here are links to the module 01 assignments:
 
-#### Case Study Information
+#### Sprint Information
 
-* [Case Study Preparation Reading](./preparation.html)
+* [Sprint Preparation Reading](./preparation.html)
 * [Sprint 1:1 Make a Map and Choose a Target](./sprint1-1.html)
 * [Sprint 1:2 Sketch Competing Solutions](./sprint1-2.html)
 * [Sprint 1:3 Deside on the Best](./sprint1-3.html)
 * [Sprint 1:4 Build a Realistic Prototype](./sprint1-4.html)
 * [Sprint 1:5 Test with Target Customers](./sprint1-5.html)
 
+
+#### Quick Introduction Video to the Design Sprint
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K2vSQPh6MCE?si=__Fq7m4H-sKOmVHx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+While this video explains using 5 days, we'll be doing these during weeks 2-3 of the semester.
 
 #### Templates
 
