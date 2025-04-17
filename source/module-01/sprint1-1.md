@@ -1,5 +1,5 @@
 ---
-title: Module 01: Sprint 1 : 1
+title: Module 01: Sprint 1 : 1 - Make a Map and Choose a Target
 body-class: index-page
 ---
 
@@ -17,13 +17,30 @@ During Phase 1 of the Design Sprint, the team focuses on understanding the probl
 ![Sprint Map]({{URLROOT}}/shared/img/sprint_1_map.jpg)
 *[Photo by The Sprint Book](https://www.thesprintbook.com/the-design-sprint)*
 
+
+### Questions to get things Started
+
+1. Describe our product
+2. What need does it solve
+3. Who is using it currently, or who would we like to use it
+4. If everything went smoothly, what would the product look like in 2 years
+
+### How Might We?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZtYp7XzmXr8?si=4UUQSdC2qJhCfPsx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Goal and Sprint Questions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OaeKpGJe2To?si=2U4lCw-MZTq7C8hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* Bring in experts to share insights (via interviews or lightning talks). 
+    - Mark areas of uncertainty, pain, or opportunity
+    - How might we???
 * Start with a map of the challenge or user journey
     - Start by defining the long-term goal (where you want to be in 6–12 months)
     - List out all key actors: customers, users, systems, etc.
     - Map out the steps of a typical user journey from start to finish
     - Keep the map simple (no need to diagram everything)
-* Bring in experts to share insights (via interviews or lightning talks). *We'll do this by cross pollination by teams.*
-    - Mark areas of uncertainty, pain, or opportunity
 * Align on the long-term goal and identify the week's key question
 * Choose a specific target area to focus on
 

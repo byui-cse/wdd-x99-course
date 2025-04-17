@@ -35,7 +35,7 @@ This course is divided into six *sprints*. Each sprint will last approximately t
 
 Each sprint is worth a percentage of your final grade:
 
-### Sprint 01
+### Sprint 01 - Design Sprint
 
 Sprint 01 is a rapid paced effort to get a proof of concept / working prototype built which can be placed in front of users.
 
@@ -49,20 +49,12 @@ Students will work in teams to create a presentation to showcase their product a
 
 ## Grading
 
-See your Canvas section for exact grade weights for each assignment, but in general, assignments are weighted similar to the following:
-
- * Module 01 - Ideation and Initial Product Build: 15%
- * Module 02-06 - Incremental Product Development: 50%
- * Product Showcase - Presentation: 5%
- * Reflections - Personal Contribution and Reflection: 10%
- * Personal Interview - Individual interview to show understanding of the product development lifecycle: 5%
- * Attendance - Daily attendance: 15%
-
 This course is pass/fail. Passing requires the following to be accomplished:
 
- * Personal Interview - Individual interview showing understanding of the product development lifecycle and software development lifecycle. Must explain how you incorporated concepts in your product from other courses at your grade level. Must explain what outside research was completed and how you integrated that knowledge into the product.
- * Present at Product Showcase - Must participate in the showcase. Must explain their contribution to the product.
+ * Must present findings from Design Sprint for working prototype.
  * Must turn in all Commitment Cards. Must have 75% or more on 5 of the 6 cards.
+ * Present at Product Showcase - Must participate in the showcase. Must explain their contribution to the product.
+ * Personal Interview - Individual interview at the end of the semester showing understanding of the product development lifecycle and software development lifecycle. Must explain how you incorporated concepts in your product from other courses at your grade level. Must explain what outside research was completed and how you integrated that knowledge into the product.
  
 
 ## Late Policy
