@@ -3,8 +3,8 @@ title: Module 01: Overview
 body-class: index-page
 ---
 
-![Monolithic App]({{URLROOT}}/shared/img/aws-monolithic.png)
-*[Photo by Dall-E-3](https://openai.com/dall-e-3)*
+![Sprint]({{URLROOT}}/shared/img/sprint_full.png)
+*[Photo by The Sprint Book](https://www.thesprintbook.com/the-design-sprint)*
 
 ## Module 01 - Overview
 

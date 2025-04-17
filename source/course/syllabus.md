@@ -58,7 +58,12 @@ See your Canvas section for exact grade weights for each assignment, but in gene
  * Personal Interview - Individual interview to show understanding of the product development lifecycle: 5%
  * Attendance - Daily attendance: 15%
 
-Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
+This course is pass/fail. Passing requires the following to be accomplished:
+
+ * Personal Interview - Individual interview showing understanding of the product development lifecycle and software development lifecycle. Must explain how you incorporated concepts in your product from other courses at your grade level. Must explain what outside research was completed and how you integrated that knowledge into the product.
+ * Present at Product Showcase - Must participate in the showcase. Must explain their contribution to the product.
+ * Must turn in all Commitment Cards. Must have 75% or more on 5 of the 6 cards.
+ 
 
 ## Late Policy
 
