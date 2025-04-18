@@ -3,8 +3,12 @@ title: Course Index
 body-class: index-page
 ---
 
-![Monolithic App]({{URLROOT}}/shared/img/aws-applied-cloud.png)
+![Technology Product Development]({{URLROOT}}/shared/img/technology-product-development-hero.jpg)
 *[Photo by Dall-E-3](https://openai.com/dall-e-3)*
+
+Web design and development isn’t just about writing code—it’s about turning your ideas into real, usable, and even life-changing products. Whether it’s a game, a tool, a store, or a way to help your community, you have the power to build it. In this course, you’ll learn how to take your spark of inspiration and transform it into something interactive, something useful—something yours. Get ready to design, build, test, and launch your very own product. No limits. No templates. Just your creativity and the skills to bring it to life.
+
+Let’s make something the world hasn’t seen yet.
 
 ## WDD X99 - Course Index
 
