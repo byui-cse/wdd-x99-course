@@ -19,6 +19,10 @@ This sprint stands apart from all the others this semester. It’s about *starti
 
 For your convenience, here are links to the module 01 assignments:
 
+#### Product Development
+
+* [Product Development Process](./product-development.html)
+
 #### Sprint Information
 
 * [Sprint 1:1 Make a Map and Choose a Target](./sprint1-1.html)
