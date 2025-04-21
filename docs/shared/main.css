@@ -353,6 +353,10 @@ article .dialogue blockquote em{
 .warning { background-color: var(--warning-background-color); }
 .time { background-color: var(--time-background-color); }
 
+.time strong {
+  color:black;
+}
+
 .note > p:first-child:before {
   content:'\f05a';
 }
