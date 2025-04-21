@@ -12,19 +12,19 @@ Now that you've completed your Design Sprint and gathered real customer feedback
 
 This sprint is about moving from assumptions to evidence-based development. You’ll take what you learned from testing your facade prototype and make intentional decisions about what to build, what to change, and what to drop. If your product didn’t resonate with users during the design sprint, that’s okay—in fact, that’s expected. In this case, you’ll return to the drawing board and run a *second, smaller design sprint*. This way, you can be confident you’re not wasting engineering time on features no one wants.
 
-From here on out, your team will follow an *agile workflow*. That means stand-ups at the beginning of each class, sprint planning, and continuous collaboration. Your focus should always be on *solving real user problems*, not just shipping features.
+From here on out, your team will follow an *agile workflow* (Note: While there are valid use cases for the Waterfall approach, this course will focus exclusively on Agile methods.) That means stand-ups at the beginning of each class, sprint planning, and continuous collaboration. Your focus should always be on *solving real user problems*, not just shipping features.
 
 !!! time "5 Keys to Agile Development"
 
-    1. **Work in Iterations (Sprints)** Agile breaks work into short, focused time periods called sprints (in our case, two weeks). You don’t need to build everything at once. You just need to make progress you can test, show, and learn from.
+    1. **Work in Iterations (Sprints)**: Agile breaks work into short, focused time periods called sprints (in our case, two weeks). You don’t need to build everything at once. You just need to make progress you can test, show, and learn from.
 
-    1. **Deliver Incrementally** Each sprint should end with something usable, testable, or interactive—even if it's just a small piece. You’re building a product step by step, not waiting until the last week to show progress.
+    1. **Deliver Incrementally**: Each sprint should end with something usable, testable, or interactive—even if it's just a small piece. You’re building a product step by step, not waiting until the last week to show progress.
 
-    1. **Solve Real Problems, Not Just Build Features** Agile is about creating value. Ask yourself: “What problem is this solving for the user?” If you can’t answer that, you may be building the wrong thing.
+    1. **Solve Real Problems, Not Just Build Features**: Agile is about creating value. Ask yourself: “What problem is this solving for the user?” If you can’t answer that, you may be building the wrong thing.
 
-    1. **Collaborate Constantly** Agile teams communicate early and often. You’ll make faster progress by checking in regularly, sharing blockers, and asking for help instead of working in silence.
+    1. **Collaborate Constantly**: Agile teams communicate early and often. You’ll make faster progress by checking in regularly, sharing blockers, and asking for help instead of working in silence.
 
-    1. **Adapt and Learn** Agile expects things to change. Customer feedback, new ideas, or technical challenges may shift your direction—and that’s okay. The goal is to learn quickly and improve.
+    1. **Adapt and Learn**: Agile expects things to change. Customer feedback, new ideas, or technical challenges may shift your direction—and that’s okay. The goal is to learn quickly and improve.
 
 ## Key Goals for Sprint 2:
 
@@ -60,6 +60,20 @@ From here on out, your team will follow an *agile workflow*. That means stand-up
 * Use a stand-up format at the start of each class (What did you do? What are you doing? Any blockers?)
 * Prioritize outcomes, not features: Why are we building this, and how will we know it’s successful?
 * Start Building!!! 
+
+!!! time "How to Run a Stand-Up Meeting (Daily Check-In)"
+
+    A stand-up is a quick, focused meeting (5–10 minutes) at the start of class where every team member answers three simple questions:
+
+    * What did I work on last time?
+    * What am I working on today?
+    * Do I have any blockers? (Anything slowing me down?)
+
+    💡 Tips:
+
+    * Everyone stands (if in person) to keep it brief and focused.
+    * Be honest—this isn’t a report for the teacher, it's for the team.
+    * Keep it short. If a longer discussion is needed, save it for after the stand-up.
 
 ## SVPG Product Mindset to Embrace This Sprint:
 
