@@ -3,7 +3,7 @@ title: Course Syllabus
 body-class: index-page
 ---
 
-## ITM X99 Course Overview
+## WDD X99 Course Overview
 
 Welcome to WDD X99 - Technology Product Development I-IV
 
