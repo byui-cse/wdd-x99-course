@@ -3,7 +3,7 @@ title: Module 02: Overview
 body-class: index-page
 ---
 
-![Monolithic App]({{URLROOT}}/shared/img/technology-product-development-sprint2.jpg)
+![Iterate]({{URLROOT}}/shared/img/iterate.png)
 *[Photo by Dall-E-3](https://openai.com/dall-e-3)*
 
 ## Module 03 - 06 - Build, Measure, Learn

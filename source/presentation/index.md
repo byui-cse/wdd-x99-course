@@ -3,7 +3,8 @@ title: Final Presentations
 body-class: index-page
 ---
 
-
+![Iterate]({{URLROOT}}/shared/img/sprint-presentation.png)
+*[Photo by Dall-E-3](https://openai.com/dall-e-3)*
 
 ## Final Team Presenations
 
