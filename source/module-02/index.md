@@ -48,11 +48,15 @@ From here on out, your team will follow an *agile workflow*. That means stand-up
 * Focus on problem-solution fit: Does what we’re building actually solve the user’s problem?
 * Use a stand-up format at the start of each class (What did you do? What are you doing? Any blockers?)
 * Prioritize outcomes, not features: Why are we building this, and how will we know it’s successful?
-
-The *Silicon Valley Product Group (SVPG)* is made up of some of the most experienced and respected product leaders in the tech industry. Their mission is to share proven principles and practices that help teams build products customers love. Unlike traditional approaches that separate planning, design, and engineering, SVPG emphasizes deep collaboration across roles, constant discovery, and building only what adds real value. Their philosophy helps teams avoid wasting time on features nobody uses and instead focus on solving meaningful problems in ways that are usable, valuable, and feasible. In this course, we’ll be drawing on SVPG’s ideas to help you build smarter, faster, and more customer-focused products.
+* Start Building!!! 
 
 ## SVPG Product Mindset to Embrace This Sprint:
+
+    !!! note "Silicon Valley Product Group"
+
+    We'll be using ideas from [*Silicon Valley Product Group (SVPG)*](https://www.svpg.com) in this course. SVPG is made up of some of the most experienced and respected product leaders in the tech industry. Their mission is to share proven principles and practices that help teams build products customers love. Unlike traditional approaches that separate planning, design, and engineering, SVPG emphasizes deep collaboration across roles, constant discovery, and building only what adds real value. Their philosophy helps teams avoid wasting time on features nobody uses and instead focus on solving meaningful problems in ways that are usable, valuable, and feasible. In this course, we’ll be drawing on SVPG’s ideas to help you build smarter, faster, and more customer-focused products.
 
 * *Product Discovery never stops* – keep talking to customers even while building
 * *Good products solve hard problems in valuable ways* – don’t just aim for “done,” aim for “impactful”
 * *Engineers, Designers, and Product Managers are co-owners of product success* – decisions should never be siloed
+* *The team is empowered* to identify how to solve a problem; *they also bear the responsibility* of how well that solution solves the needs of the customer.
