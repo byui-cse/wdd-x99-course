@@ -1,12 +1,12 @@
 ---
-title: Module 02: Overview
+title: Module 03-06: Overview
 body-class: index-page
 ---
 
 ![Iterate]({{URLROOT}}/shared/img/iterate.png)
 *[Photo by Dall-E-3](https://openai.com/dall-e-3)*
 
-## Module 03 - 06 - Build, Measure, Learn
+## Modules 03 - 06 - Build, Measure, Learn
 
 In Sprints 3 through 6, your team will shift into full iteration mode. This is where the real product work happens—where you take everything you’ve learned from earlier feedback and continue to improve, refine, and grow your product. Each sprint is an opportunity to build something meaningful, test it with real users, and learn from their reactions. You’ll focus on delivering small, high-impact improvements, validating your ideas along the way, and ensuring your product evolves in a direction that actually matters to your customers. Agile isn't about perfection—it's about learning fast and getting better every sprint.
 
