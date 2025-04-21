@@ -96,7 +96,7 @@ header .icon-byui-logo {
 
 header #titles nav {
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 10px 0;
 }
 
