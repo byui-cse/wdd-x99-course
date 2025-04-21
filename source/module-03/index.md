@@ -1,47 +1,93 @@
 ---
-title: Module 03: Overview
+title: Module 02: Overview
 body-class: index-page
 ---
 
-![Foodie Finder]({{URLROOT}}/shared/img/foodie-finder.jpg)
+![Monolithic App]({{URLROOT}}/shared/img/technology-product-development-sprint2.jpg)
+*[Photo by Dall-E-3](https://openai.com/dall-e-3)*
 
-## Module 03 - Overview
+## Module 03 - 06 - Build, Measure, Learn
 
-Students will gain hands-on experience in product management by applying key concepts such as market research, user personas, feature prioritization, and minimum viable product development to achieve product fit for FoodieFinder.
+In Sprints 3 through 6, your team will shift into full iteration mode. This is where the real product work happens—where you take everything you’ve learned from earlier feedback and continue to improve, refine, and grow your product. Each sprint is an opportunity to build something meaningful, test it with real users, and learn from their reactions. You’ll focus on delivering small, high-impact improvements, validating your ideas along the way, and ensuring your product evolves in a direction that actually matters to your customers. Agile isn't about perfection—it's about learning fast and getting better every sprint.
 
-1.  **Product Manager** - ensures that the solutions are *valuable* (our customers will buy the product and/or choose to use it), and *viable* it will meet the needs of the business.
-2.  **Product Designer** - ensures that the solution is *usable*.
-3.  **Tech Lead** - ensures that the solution is *feasible*.
+## Prototype vs MVP vs Shipped Product
 
-Together, you own the problem and are responsible and accountable for the results.
+As your product evolves, you’ll move through several key stages: **prototype**, **MVP**, and eventually a **shipped product**. A *prototype* is an early, often non-functional model that helps you test ideas quickly—it might be a clickable mockup, a drawing, or a simple simulation. The goal is to explore solutions without writing full code. An *MVP (Minimum Viable Product)* is the first working version of your product that includes just enough core functionality to be used and tested by real customers. It’s not polished or feature-complete, but it should solve a real problem. A *shipped product* is what you release when you're confident in its value—it’s been refined, tested, and is ready for wider use. Each step builds on the last, and all three are essential in developing something people will actually want.
 
-## Strategic Context
 
-FoodieFinder aims to solve the challenge individuals face when trying to discover new restaurants that align with their preferences and dietary restrictions. Many people enjoy dining out and exploring new culinary experiences, but the abundance of options can be overwhelming and they end up eating the same food at the same places over and over again. Additionally, individuals with dietary restrictions or specific food preferences often struggle to find restaurants that cater to their needs.
 
-FoodieFinder addresses these pain points by providing a solution that simplifies the process of discovering restaurants and specific dishes tailored to each user's preferences. FoodieFinder offers personalized recommendations for restaurants and specific dishes based on factors such as cuisine, location, price range, and dietary restrictions. This not only saves users time and effort but also enhances their dining experiences by connecting them with amazing food they likely would never have tried.
+## Key Goals for Sprints 3-6:
 
-Overall, FoodieFinder aims to streamline the restaurant discovery process, empower users to explore new culinary experiences, and ensure that everyone can find delicious meals that suit their tastes and dietary needs.
+### Sprint 3 Goals – First Real Release
 
-!!! note "Product-Market Fit"
+* Transform your MVP into a usable version for real customers.
+* Test your product in real-world conditions with actual users.
+* Prioritize fixing bugs and improving usability.
+* Collect qualitative feedback (interviews, surveys, recordings).
+* Validate your product is solving a real problem.
 
-    Product-market fit refers to the degree to which a product satisfies the needs and demands of a specific market segment. It signifies the alignment between the product's features, value proposition, and target market's preferences, resulting in widespread adoption and customer satisfaction. 
-    
-    For FoodieFinder, achieving product-market fit means offering a solution that effectively addresses the pain points of individuals seeking restaurant recommendations tailored to their tastes and dietary restrictions. It involves delivering personalized recommendations, intuitive user experience, and valuable features that resonate with users and compel them to use the product regularly. As FoodieFinder gains traction and garners positive feedback from users, it demonstrates successful product-market fit by fulfilling a genuine need in the market and establishing itself as a go-to solution for restaurant discovery.
+### Sprint 4 Goals – Add Value
 
-For your convenience, here are links to the module 04 assignments:
+* Implement the most requested and impactful improvements.
+* Enhance features that received positive feedback.
+* Focus on usability, performance, and accessibility.
+* Continue testing with real customers — did your changes help?
+* Start defining what “success” looks like with simple metrics.
 
-#### Case Study Information
+### Sprint 5 Goals – Extend & Polish
 
-* [Case Study Preparation Reading](./preparation.html)
-* [Case Study Problem](./problem.html)
-* [Case Study Phases](./phases.html)
-* [AWS Academy Link](https://awsacademy.instructure.com)<br>This case study uses the **Learner Lab** Course 
+* Add new features that extend the product’s core value.
+* Refactor any rushed code or designs to prepare for scaling.
+* Improve visual and UX design to feel more professional.
+* Test with broader audiences or different user types.
+* Start preparing for your final pitch/demo presentation.
 
-#### Templates
+### Sprint 6 Goals – Final Validation & Presentation
 
-* [Individual Reflection Template]({{URLROOT}}/course/reflection.docx)
+* Finalize the version of the product you’ll showcase.
+* Ensure it is stable, functional, and tells a clear product story.
+* Create a compelling pitch that shows customer demand and understanding of customer needs.
+* Run final tests to confirm user value.
+* Practice your presentation and polish your deliverables.
 
-#### Hints and Helps
+## Reminders
 
-* [Hints](./hints.html)
+!!! time "5 Keys to Agile Development"
+
+    1. **Work in Iterations (Sprints)**: Agile breaks work into short, focused time periods called sprints (in our case, two weeks). You don’t need to build everything at once. You just need to make progress you can test, show, and learn from.
+
+    1. **Deliver Incrementally**: Each sprint should end with something usable, testable, or interactive—even if it's just a small piece. You’re building a product step by step, not waiting until the last week to show progress.
+
+    1. **Solve Real Problems, Not Just Build Features**: Agile is about creating value. Ask yourself: “What problem is this solving for the user?” If you can’t answer that, you may be building the wrong thing.
+
+    1. **Collaborate Constantly**: Agile teams communicate early and often. You’ll make faster progress by checking in regularly, sharing blockers, and asking for help instead of working in silence.
+
+    1. **Adapt and Learn**: Agile expects things to change. Customer feedback, new ideas, or technical challenges may shift your direction—and that’s okay. The goal is to learn quickly and improve.
+
+!!! time "How to Run a Stand-Up Meeting (Daily Check-In)"
+
+    A stand-up is a quick, focused meeting (5–10 minutes) at the start of class where every team member answers three simple questions:
+
+    * What did I work on last time?
+    * What am I working on today?
+    * Do I have any blockers? (Anything slowing me down?)
+
+    💡 Tips:
+
+    * Everyone stands (if in person) to keep it brief and focused.
+    * Be honest—this isn’t a report for the teacher, it's for the team.
+    * Keep it short. If a longer discussion is needed, save it for after the stand-up.
+
+* *Product Discovery never stops* – keep talking to customers even while building
+* *Good products solve hard problems in valuable ways* – don’t just aim for “done,” aim for “impactful”
+* *Engineers, Designers, and Product Managers are co-owners of product success* – decisions should never be siloed
+* *The team is empowered* to identify how to solve a problem; *they also bear the responsibility* of how well that solution solves the needs of the customer.
+
+## Software Development Lifecycle with a Modern Product Approach:
+
+* *Planning:* Identify real customer problems through continuous discovery
+* *Design:* Collaborate on lightweight, testable prototypes before investing in full builds
+* *Development:* Build incrementally, prioritizing usability and business value
+* *Testing:* Test early and often—use both automated tests and real customer feedback
+* *Deployment:* Ship early and frequently to learn from real-world usage
+* *Maintenance:* Refine based on user behavior and emerging insights (start the process over again)
