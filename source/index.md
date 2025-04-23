@@ -25,5 +25,5 @@ For your convenience, links to each module overview is listed below, but please 
 
 * [Module 01](./module-01/)
 * [Module 02](./module-02/)
-* [Module 03 - 06](./module-03/)
+* [Modules 03 - 06](./module-03/)
 * [Final Presentations](./presentation/)

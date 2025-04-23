@@ -10,6 +10,11 @@ body-class: index-page
 
 Product development starts with an idea—but not just any idea. It needs to be grounded in a real need or opportunity. That’s why we begin with *Idea Generation*, *Market Research*, and *Concept Development*: to explore possibilities, understand the competitive landscape, and shape your idea into something that matters. Our goal is to serve real users by creating a product they’ll love—while also ensuring it makes sense for the business. This is where creativity meets strategy.
 
+!!! time "Discovery Sprint"
+
+    * [Discovery Sprint](https://www.svpg.com/discovery-sprints/)
+    * what is the fastest, cheapest possible way we can flesh out this idea and validate it?
+
 In our first design sprint, you’ll move fast through the essential steps of [product discovery](https://www.svpg.com/planning-product-discovery/). You’ll test assumptions, build a *prototype*, and gather real feedback—all in just the first couple of weeks. This gives your team a clear direction based on real insights, not guesses. Along the way, you’ll also conduct *business analysis* to evaluate whether your solution creates value both for customers and for the organization. This early stage of discovery helps ensure that what you're building is both desirable and viable—a critical foundation for successful product development.
 
 After your sprint, the work shifts from validating a concept to making it real. Following the Silicon Valley Product Group’s model, you’ll move into *Product Development* with short, focused iterations. As a team, you'll continue to design, build, and test features that your product manager deems most critical—based on user feedback, business value, and technical feasibility. The collaboration between the product manager, product designer, and tech lead becomes essential here. It’s not about building everything at once; it's about learning fast and improving quickly.

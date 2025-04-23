@@ -25,6 +25,19 @@ During Phase 1 of the Design Sprint, the team focuses on understanding the probl
 3. Who is using it currently, or who would we like to use it
 4. If everything went smoothly, what would the product look like in 2 years
 
+## Product Opportunity Assessment [link](https://www.svpg.com/assessing-product-opportunities/)
+
+1. Exactly what problem will this solve? (value proposition)
+2. For whom do we solve that problem? (target market)
+3. How big is the opportunity? (market size)
+4. What alternatives are out there? (competitive landscape)
+5. Why are we best suited to pursue this? (our differentiator)
+6. Why now? (market window)
+7. How will we get this product to market? (go-to-market strategy)
+8. How will we measure success/make money from this product? (metrics/revenue strategy)
+9. What factors are critical to success? (solution requirements)
+10. Given the above, what’s the recommendation? (go or no-go)
+
 ### How Might We?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtYp7XzmXr8?si=4UUQSdC2qJhCfPsx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
