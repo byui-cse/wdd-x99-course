@@ -28,6 +28,8 @@ Phase 3 is decision day. The team selects which ideas to prototype based on clar
     - Make the storyboard detailed enough to guide Thursday’s build
     - Keep the user’s journey and key problem in focus throughout
 
+### Checklist
+
 - [ ] **Art museum** put sketches where everyone can see them.
 - [ ] **Heat map** each person add small stickers to every part they like
 - [ ] **Speed critique** Discuss highlights of each solution, capture standout ideas.

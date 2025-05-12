@@ -37,6 +37,8 @@ Phase 2 of the Design Sprint is all about idea generation, and the key activity 
 * End with full solution sketches that can be reviewed anonymously
 * Recruit 5 customers who match your target audience to test during phase 5
 
+### Checklist
+
 - [ ] **Lightning Demos** Look at great solutions from a range of companies, including yours. Three minutes max per demo. Capture good ideas with a quick drawing on the whiteboard.
 - [ ] **Divide** Decide who will sketch each part of the map.
 - [ ] **Four step sketch** Notes – Take notes from the whiteboard, Ideas – jot down rough ideas, circle most promising ones
