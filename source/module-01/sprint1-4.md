@@ -26,4 +26,9 @@ Phase 4 is a fast-paced day of building. The team creates a realistic facade of 
 * Do a dry run of the prototype at the end of the day
 * Prepare everything needed for Phase 5’s test
 
+- [ ] **Pick the right tool** Probably going to be Canva for our product
+- [ ] **Roles and work!** Asset collector, maker, stitcher, everyone can work on Canva at the same time.
+- [ ] **Prototype** Build the façade in Canva. Build, build, build. Then run through your prototype
+
+
 **Outcome: A prototype that feels real enough for users to test.**

@@ -27,4 +27,9 @@ The most crucial task on Friday is running five one-on-one interviews with real 
 * Debrief as a team and identify patterns
     - Summarize findings and decide on the next steps: iterate, pivot, or ship
 
+- [ ] **Five Act interview** Friendly welcome, context questions, and then introduce the prototype. Have them think out loud.
+- [ ] **Take notes** take down notes. Look for patterns, wrap up by reviewing your long-term goal and sprint questions. 4
+- [ ] **Decide** Decide how to proceed.
+
+
 **Outcome: Real feedback from target users and validated insights.**

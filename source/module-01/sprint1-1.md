@@ -57,4 +57,14 @@ During Phase 1 of the Design Sprint, the team focuses on understanding the probl
 * Align on the long-term goal and identify the week's key question
 * Choose a specific target area to focus on
 
+- [ ] **Set a long-term goal** Get optimistic. Ask: Why are we doing this product? Where do we want to be in six-months, a year, or even five? Write the long-term goal on the whiteboard.
+- [ ] **List sprint questions** Get pessimistic. Ask: How could we fail? Turn these into question you could answer this week. List them on the whiteboard.
+- [ ] **Make a map** List customer and key players on the left. Draw the ending, with your completed goal on the right. Make a flowchart between showing how customers interact with your product. Keep is simple: 5-15 steps.
+- [ ] **Ask the Experts** Interview experts on you sprint team and guests from the outside. Ask about vision, customer research, how things work, and previous efforts. Update the long-term goal, questions, and map as you go.
+- [ ] **Explain How Might We notes** Reframe problems as opportunities. Start with HWM (how might we) on the sticky notes. Write one idea per sticky note.
+- [ ] **Organize HMW notes** Stick the HMW notes on the wall. Move like ideas near each other. Label them as they emerge. Don’t perfect it.
+- [ ] **Vote on HWM notes** Use stickers to vote for HMW. Move winners to map.
+- [ ] **Pick a target** Circle the most important customer and one target moment on the wall. Product Manager make final call.
+
+
 **Outcome: A shared understanding of the challenge and a clear focus for the sprint.**
