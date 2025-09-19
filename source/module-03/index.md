@@ -10,6 +10,16 @@ body-class: index-page
 
 In Sprints 3 through 6, your team will shift into full iteration mode. This is where the real product work happens—where you take everything you’ve learned from earlier feedback and continue to improve, refine, and grow your product. Each sprint is an opportunity to build something meaningful, test it with real users, and learn from their reactions. You’ll focus on delivering small, high-impact improvements, validating your ideas along the way, and ensuring your product evolves in a direction that actually matters to your customers. Agile isn't about perfection—it's about learning fast and getting better every sprint.
 
+!!! time "95 Percent"
+
+    "5 percent of entrepreneurship is the big idea, the business model, the whiteboard strategizing, and the splitting up of the spoils. The other 95 percent is the gritty work that is measured by innovation accounting: 
+    
+    1. product prioritization decisions
+    2. deciding which customers to target or listen to
+    3. having the courage to subject a grand vision to constant testing and feedback.
+    
+    From The Lean Startup
+
 ## Prototype vs MVP vs Shipped Product
 
 As your product evolves, you’ll move through several key stages: **prototype**, **MVP**, and eventually a **shipped product**. A *prototype* is an early, often non-functional model that helps you test ideas quickly—it might be a clickable mockup, a drawing, or a simple simulation. The goal is to explore solutions without writing full code. An *MVP (Minimum Viable Product)* is the first working version of your product that includes just enough core functionality to be used and tested by real customers. It’s not polished or feature-complete, but it should solve a real problem. A *shipped product* is what you release when you're confident in its value—it’s been refined, tested, and is ready for wider use. Each step builds on the last, and all three are essential in developing something people will actually want.
