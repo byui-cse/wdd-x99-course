@@ -30,7 +30,7 @@ For your convenience, here are links to the module 01 assignments:
 * [Sprint 1:3 Decide on the Best](./sprint1-3.html)
 * [Sprint 1:4 Build a Realistic Prototype](./sprint1-4.html)
 * [Sprint 1:5 Test with Target Customers](./sprint1-5.html)
-* [Sprint 1:6 Presentation](../shared/presentation_rubric.pdf)
+* [Sprint 1:6 Presentation](../course/presentation_rubric.pdf)
 
 
 #### Quick Introduction Video to the Design Sprint
