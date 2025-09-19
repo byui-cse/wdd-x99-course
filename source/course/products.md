@@ -17,10 +17,6 @@ Product Standup Meetings will be held every module, all during normal class time
 
 Each team member (including the Product Manager) is responsible for fulfilling the following responsibilities:
 
-* Helping build a cost estimate for the product.
-
-* Helping build an architecture diagram for the product.
-
 * Attending all product standup meetings, where they will summarize the status of their work for the rest of the team and share ideas and insights regarding the work of other team members.
 
 * Participating in the product implementation.
