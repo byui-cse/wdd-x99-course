@@ -8,6 +8,8 @@ body-class: index-page
 
 Web design and development isn’t just about writing code—it’s about turning your ideas into real, usable, and even life-changing products. Whether it’s a game, a tool, a store, or a way to help your community, you have the power to build it. In this course, you’ll learn how to take your spark of inspiration and transform it into something interactive, something useful—something yours. Get ready to design, build, test, and launch your very own product. No limits. No templates. Just your creativity and the skills to bring it to life.
 
+![From Idea to Product]({{URLROOT}}/shared/img/x99-hero.jpg)
+
 Let’s make something the world hasn’t seen yet.
 
 ## WDD X99 - Course Index
